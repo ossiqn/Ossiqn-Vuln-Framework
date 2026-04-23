@@ -1,15 +1,11 @@
-<div align="center">
-  <h1>🛡️ OssiqnScan Framework</h1>
-  <p>Gelismis, Multi-Threaded ve Kapsamli Web Zafiyet Tarama Motoru</p>
-  
-  <p>
-    <a href="https://github.com/ossiqn"><img src="https://img.shields.io/badge/Developer-Ossiqn-0e75b6?style=for-the-badge" alt="Developer"></a>
-    <a href="https://python.org"><img src="https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python" alt="Python"></a>
-    <a href="https://ossiqn.com.tr"><img src="https://img.shields.io/badge/Website-Live-green?style=for-the-badge" alt="Website"></a>
-  </p>
-</div>
+# 🛡️ OssiqnScan Framework
+**Gelismis, Multi-Threaded ve Kapsamli Web Zafiyet Tarama Motoru**
 
-<br>
+[![Developer](https://img.shields.io/badge/Developer-Ossiqn-0e75b6?style=for-the-badge)](https://github.com/ossiqn)
+[![Python](https://img.shields.io/badge/Python-3.x-yellow?style=for-the-badge&logo=python)](https://python.org)
+[![Website](https://img.shields.io/badge/Website-Live-green?style=for-the-badge)](https://ossiqn.com.tr)
+
+---
 
 ## 📖 Proje Hakkinda
 
@@ -29,8 +25,8 @@ OssiqnScan, harici bir aractan bagimsiz olarak tamamen kendi motoruyla calisan, 
 Gereksinimleri yuklemek ve projeyi calistirmak sadece birkac saniye surer:
 
 ```bash
-git clone [https://github.com/ossiqn/OssiqnScan.git](https://github.com/ossiqn/OssiqnScan.git)
-cd OssiqnScan
+git clone [https://github.com/ossiqn/Ossiqn-Vuln-Framework.git](https://github.com/ossiqn/Ossiqn-Vuln-Framework.git)
+cd Ossiqn-Vuln-Framework
 pip install requests colorama dnspython
 python ossiqn.py
 💻 Kullanim Ornegi
@@ -44,11 +40,7 @@ ossiqn > vulns
 ossiqn > use 1
 ossiqn > show options
 ossiqn > fix 1
-Diger tum ozellikleri gormek icin konsola help yazabilirsiniz.
-
 ⚠️ Yasal Uyari
 Bu arac yalnizca egitim, guvenlik arastirmalari ve yetkili guvenlik testleri (pentest) amaciyla gelistirilmistir. Izin almadan herhangi bir sisteme karsi kullanilmasi yasa disidir. Olusabilecek tum yasal sorumluluk kodu kullanan kisiye aittir.
 
-<div align="right">
-<i>Coded with ⚡ by <b>Ossiqn</b></i>
-</div>
+Coded with ⚡ by Ossiqn
